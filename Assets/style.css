@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #0077ff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header */
+header {
+    padding: 20px 35px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header h1{
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #0077ff;
+}
+header a {
+    text-decoration: none;
+    color:#0077ff;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+/* Homepage */
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.about-me h2 {
+    font-size: 16px;
+}
+
+.about-me p {
+    font-size: 11px;
+    margin-bottom: 11px;
+}
+
+/* Resume */
+
+.resume { 
+    display: flex;
+    flex-direction: column;
+}
+
+.resume h2 {
+    text-decoration: underline;
+}
+.resume ul {
+    margin-bottom: 20px;
+}
+.resume li {
+    margin-bottom: 5.5px;
+}
+
+/* Projects */
+.center-aligned {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-image {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    font-size: 3vh;
+    color: white;
+}
+
+.center-aligned .spotlight {
+    flex-wrap: nowrap;
+}
